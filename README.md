@@ -59,4 +59,4 @@ Automatic renewal is described in detail in a separate RFC: "[DKHM RFC for handl
 
 [RFC5730]: https://www.rfc-editor.org/rfc/rfc5730.html
 [RFC5731]: https://www.rfc-editor.org/rfc/rfc5731.html
-[DKHMRFCAUTORENEW]: https://github.com/DK-Hostmaster/DKHM-RFC-Delete-Domain
+[DKHMRFCAUTORENEW]: https://github.com/DK-Hostmaster/DKHM-RFC-AutoRenew
