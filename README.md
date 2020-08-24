@@ -104,7 +104,7 @@ And the response to the request (example lifted from RFC:5731 and modified):
 </epp>
 ```
 
-Since the transfer proces differs from the one outlined in the [RFC:5731][RFC5731], the following status codes should only be the ones observed:
+Since the transfer process differs from the one outlined in the [RFC:5731][RFC5731], the following status codes should only be the ones observed:
 
 - `serverApproved`
 
