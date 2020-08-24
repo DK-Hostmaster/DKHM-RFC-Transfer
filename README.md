@@ -85,7 +85,7 @@ And the response to the request (example lifted from RFC:5731 and modified):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<epp xmlns="urn:ietf:paramxml:nepp-1.0">
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
   <response>
     <result code="1000">
       <msg>Command completed successfully</msg>
