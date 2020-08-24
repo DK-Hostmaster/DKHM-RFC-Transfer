@@ -13,6 +13,8 @@
   - [About this Document](#about-this-document)
   - [XML and XSD Examples](#xml-and-xsd-examples)
 - [Description](#description)
+- [Transfer](#transfer)
+- [Withdraw](#withdraw)
 - [XSD Definition](#xsd-definition)
 - [References](#references)
 
@@ -52,6 +54,7 @@ The command will be extended to support the DK Hostmaster registry, with the fol
 
 Automatic renewal is described in detail in a separate RFC: "[DKHM RFC for handling of Automatic Renewal][DKHMRFCAUTORENEW]", the aspects in regard to transfer will however be described here. Please see the mentioned RFC for all the details automatic renewal.
 
+<a id="transfer"></a>
 ## Transfer
 
 The transfer command, will adhere to the EPP standard as described in [RFC:5731][RFC5731].
@@ -118,6 +121,7 @@ The following should not be observed, since the process does not implement this 
 - `pending`
 - `serverCancelled`
 
+<a id="withdraw"></a>
 ## Withdraw
 
 DK Hostmaster has decided to support the option for registrar of transferring out, so where the regular transfer command (described above) is a _pull_ operation. The registrar can _push_ a domain name from it's portfolio to DK Hostmaster, when and if a registrar requires so.
