@@ -121,6 +121,12 @@ The following should not be observed, since the process does not implement this 
 - `pending`
 - `serverCancelled`
 
+Upon transfer, the contact objects related to the domain name being transferred are cloned to new similar objects under the administration of the receiving registrar.
+
+The cloning is a best-effort cloning, since the ID-control status cannot be guaranteed to be consistent in the case where a contact object is locked to a register, but has limitations in access to data due to policies in regard to disclosure etc.
+
+Host objects related to the domain name, where the domain name is superordinate and the host objects are subordinate are transferred to the registrer as specified in [RFC:5321][RFC5732]
+
 <a id="withdraw"></a>
 ## Withdraw
 
@@ -202,11 +208,13 @@ An example of a withdraw XML request would look as follows (example lifted from 
 - [DK Hostmaster EPP Service XSD Repository][DKHMXSDSPEC]
 - [RFC:5730 "Extensible Provisioning Protocol (EPP)"][RFC5730]
 - [RFC:5731 "Extensible Provisioning Protocol (EPP) Domain Name Mapping"][RFC5731]
+- [RFC:5732 "Extensible Provisioning Protocol (EPP) Host Mapping"][RFC5732]
 - ["DKHM RFC for handling of Automatic Renewal][DKHMRFCAUTORENEW]
 - [Norid EPP Interface Specification, revision 1e1](https://teknisk.norid.no/uploads/2019/11/EPP_Interface_Specification.1e1.pdf) (PDF)
 
 [RFC5730]: https://www.rfc-editor.org/rfc/rfc5730.html
 [RFC5731]: https://www.rfc-editor.org/rfc/rfc5731.html
+[RFC5732]: https://www.rfc-editor.org/rfc/rfc5732
 [DKHMRFCAUTORENEW]: https://github.com/DK-Hostmaster/DKHM-RFC-AutoRenew
 [DKHMEPPSPEC]: https://github.com/DK-Hostmaster/epp-service-specification
 [DKHMXSDSPEC]: https://github.com/DK-Hostmaster/epp-xsd-files
