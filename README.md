@@ -125,7 +125,7 @@ Upon transfer, the contact objects related to the domain name being transferred 
 
 The cloning is a best-effort cloning, since the ID-control status cannot be guaranteed to be consistent in the case where a contact object is locked to a register, but has limitations in access to data due to policies in regard to disclosure etc.
 
-Host objects related to the domain name, where the domain name is superordinate and the host objects are subordinate are transferred to the registrer as specified in [RFC:5321][RFC5732]
+Host objects related to the domain name, where the domain name is superordinate and the host objects are subordinate are transferred to the registrar as specified in [RFC:5321][RFC5732]
 
 <a id="withdraw"></a>
 ## Withdraw
