@@ -60,7 +60,7 @@ The command will only be available to registrars and require the use of an AuthI
 
 An example XML request could look as follows (example lifted from RFC:5731 and modified):
 
-````xml
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
   <command>
