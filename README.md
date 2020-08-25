@@ -19,6 +19,7 @@ Revision: 1.0
   - [XML and XSD Examples](#xml-and-xsd-examples)
 - [Description](#description)
 - [Transfer](#transfer)
+- [AuthInfo](#authinfo)
 - [Withdraw](#withdraw)
 - [XSD Definition](#xsd-definition)
 - [References](#references)
@@ -145,6 +146,13 @@ Host objects related to the domain name, where the domain name is superordinate 
 
 Do note that a transfer will set the default auto-renewal/expiration for the transferred domain. Please see ["DKHM RFC for handling of Automatic Renewal or Expiration"][DKHMRFCAUTORENEW]
 
+<a id="authinfo"></a>
+## AuthInfo
+
+The generation and format of the AuthInfo token for use for the transfer command is described in the proposal: ["DKHM RFC for AuthInfo"]["DKHMRFCAUTHINFO"].
+
+The only change related to the generation is the keyword to be used, where the default is `AUTO` at this time. The generation of a AuthInfo token for transfer, will require the keyword: `AUTOTRANSFER`.
+
 <a id="withdraw"></a>
 ## Withdraw
 
@@ -228,12 +236,14 @@ An example of a withdraw XML request would look as follows (example lifted from 
 - [RFC:5731 "Extensible Provisioning Protocol (EPP) Domain Name Mapping"][RFC5731]
 - [RFC:5732 "Extensible Provisioning Protocol (EPP) Host Mapping"][RFC5732]
 - ["DKHM RFC for handling of Automatic Renewal][DKHMRFCAUTORENEW]
+- ["DKHM RFC for AuthInfo"][DKHMRFCAUTHINFO]
 - [Norid EPP Interface Specification, revision 1e1](https://teknisk.norid.no/uploads/2019/11/EPP_Interface_Specification.1e1.pdf) (PDF)
 
 [RFC5730]: https://www.rfc-editor.org/rfc/rfc5730.html
 [RFC5731]: https://www.rfc-editor.org/rfc/rfc5731.html
 [RFC5732]: https://www.rfc-editor.org/rfc/rfc5732
 [DKHMRFCAUTORENEW]: https://github.com/DK-Hostmaster/DKHM-RFC-AutoRenew
+[DKHMRFCAUTHINFO]: https://github.com/DK-Hostmaster/DKHM-RFC-AuthInfo
 [DKHMEPPSPEC]: https://github.com/DK-Hostmaster/epp-service-specification
 [DKHMXSDSPEC]: https://github.com/DK-Hostmaster/epp-xsd-files
 [CONCEPT]: https://www.dk-hostmaster.dk/en/new-basis-collaboration-between-registrars-and-dk-hostmaster
