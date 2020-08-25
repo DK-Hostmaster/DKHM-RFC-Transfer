@@ -127,6 +127,8 @@ The cloning is a best-effort cloning, since the ID-control status cannot be guar
 
 Host objects related to the domain name, where the domain name is superordinate and the host objects are subordinate are transferred to the registrar as specified in [RFC:5321][RFC5732]
 
+Do note that a transfer will set the default auto-renewal/expiration for the transferred domain. Please see ["DKHM RFC for handling of Automatic Renewal or Expiration"][DKHMRFCAUTORENEW]
+
 <a id="withdraw"></a>
 ## Withdraw
 
