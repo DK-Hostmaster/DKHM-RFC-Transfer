@@ -15,6 +15,7 @@ Revision: 1.0
 - [Introduction](#introduction)
   - [About this Document](#about-this-document)
   - [License](#license)
+  - [Document History](#document-history)
   - [XML and XSD Examples](#xml-and-xsd-examples)
 - [Description](#description)
 - [Transfer](#transfer)
@@ -40,6 +41,12 @@ The overall [description of the concept][CONCEPT] of the registrar model offered
 ### License
 
 This document is copyright by DK Hostmaster A/S and is licensed under the MIT License, please see the separate LICENSE file for details.
+
+<a id="document-history"></a>
+### Document History
+
+- 1.0 2020-08-25
+  - Initial revision
 
 <a id="xml-and-xsd-examples"></a>
 ### XML and XSD Examples
