@@ -68,3 +68,5 @@ schemaLocation
 www
 xsi
 superordinate
+DKHMRFCAUTHINFO
+AUTOTRANSFER
