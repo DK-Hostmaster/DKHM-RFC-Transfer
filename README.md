@@ -149,7 +149,7 @@ Do note that a transfer will set the default auto-renewal/expiration for the tra
 <a id="authinfo"></a>
 ## AuthInfo
 
-The generation and format of the AuthInfo token for use for the transfer command is described in the proposal: ["DKHM RFC for AuthInfo"]["DKHMRFCAUTHINFO"].
+The generation and format of the AuthInfo token for use for the transfer command is described in the proposal: ["DKHM RFC for AuthInfo"][DKHMRFCAUTHINFO].
 
 The only change related to the generation is the keyword to be used, where the default is `AUTO` at this time. The generation of a AuthInfo token for transfer, will require the keyword: `AUTOTRANSFER`.
 
