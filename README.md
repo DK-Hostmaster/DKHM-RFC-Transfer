@@ -5,8 +5,8 @@
 ![Markdownlint Action](https://github.com/DK-Hostmaster/DKHM-RFC-Transfer/workflows/Markdownlint%20Action/badge.svg)
 ![Spellcheck Action](https://github.com/DK-Hostmaster/DKHM-RFC-Transfer/workflows/Spellcheck%20Action/badge.svg)
 
-2020-08-25
-Revision: 1.0
+2020-09-19
+Revision: 1.1
 
 ## Table of Contents
 
@@ -38,6 +38,8 @@ We have adopted the term RFC (_Request For Comments_), due to the recognition in
 
 The overall [description of the concept][CONCEPT] of the registrar model offered by DK Hostmaster A/S provided as a general overview, where this RFC digs into the details of the cancellation/deletion of domain names in the context of an implementation proposal.
 
+This document is not the authoritative source for business and policy rules and possible discrepancies between this an any authoritative sources are regarded as errors in this document. This document is aimed at the technical specification and possible implementation and is an interpretation of authoritative sources and can therefor be erroneous.
+
 <a id="license"></a>
 ### License
 
@@ -45,6 +47,9 @@ This document is copyright by DK Hostmaster A/S and is licensed under the MIT Li
 
 <a id="document-history"></a>
 ### Document History
+
+- 1.1 2020-09-19
+  - Addition of disclaimer
 
 - 1.0 2020-08-25
   - Initial revision
